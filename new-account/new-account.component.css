@@ -1,0 +1,22 @@
+.example-form
+{
+    text-align: center;
+}
+
+input{
+    height: 20px;
+    width: 120px;
+    font-size: large;
+}
+
+select{
+    width: 150px;
+    height: 30px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: hotpink;
+    color: white;
+  }

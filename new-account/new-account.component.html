@@ -1,0 +1,21 @@
+
+<form class="example-form">
+    <h2>Account Name</h2>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Account Name</mat-label>
+      <input matInput placeholder="Ex. Alex" #accountName>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+        <select matNativeControl required #status>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+          <option value="hidden">Hidden</option>
+        </select>
+    </mat-form-field>
+    <br>
+    <button mat-raised-button
+    (click)="onCreateAccount(accountName.value, status.value)"
+    >Add Account</button>
+    
+</form>

@@ -1,0 +1,16 @@
+button{
+    background-color: hotpink;
+    color: white;
+    height: 40px;
+    width: 140px;
+}
+
+mat-card{
+    margin: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid gray;
+}
